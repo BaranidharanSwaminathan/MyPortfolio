@@ -23,8 +23,10 @@ header{
 header{
     background-color:lightslategray;
 }
+.home_image{
+    width:100%;
+}
 .site-image{
-    background: url(https://preview.colorlib.com/theme/rezume/images/ximage_1.jpg.pagespeed.ic.X2zR0KHyU5.webp) no-repeat center center;
     background-size: cover;
     z-index: 1;
     position: relative;
@@ -61,8 +63,9 @@ header{
 .my-name h2,.my-name h1 {
     color: white;
     text-align: center;
-    font-size: 40px;
-    font-weight: 600;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: cursive;
     margin:0;
     padding:0;
 }
@@ -88,6 +91,7 @@ header{
     border: 0;
 }
 ul li a{
+    font-size: 22px;
     display: inline-block;
     text-decoration: none;
     color: #ffffff;
@@ -193,7 +197,7 @@ p{
     right: 0px;
     left: 0px;
     letter-spacing: 2px;
-    font-size: 16px;
+    font-size: 30px;
     font-weight: 200;
 }
 .filter{
@@ -372,28 +376,32 @@ li {
     max-width: 58.33333%;
 }
 .about-container{
-    margin:0 auto;
-    width:90%;
+    width:100%;
 }
-.about-outer{
+.about-outer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
 }
 .about-header {
     margin: 0;
     text-align: left;
     padding: 0;
 }
-.about-img{
-    padding-right: 20px;
+.about-img {
+    width: 30%;
+    height: 496px;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
 }
 .aboutme {
-    width: 100%;
-    padding: 0 60px;
+    width: 50%;
 }
-.img-width{
-    max-width: 100%;
-    height: auto;
+.img-width {
+    width: 100%;
 }
 .aboutme p{
     font-size: 1.25rem;
@@ -792,14 +800,15 @@ textarea:focus{
     }
 }
 
-.top-scroll ion-icon {
+.top-scroll{
+    width:50px;
+    height:50px;
     border-radius: 50%;
     position: fixed;
     right: 65px;
     bottom: 32px;
     font-size: 50px;
     background-color: white;
-    color: black;
 }
 
 /* .single-item{
